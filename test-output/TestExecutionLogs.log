@@ -1,0 +1,19 @@
+02-Jul-2022 14:18:28:386 INFO  [TestNG-tests-1] Execution will start on Web Browser Name: CHROME 
+02-Jul-2022 14:18:34:212 INFO  [TestNG-tests-1] Navigating to the URL: https://www.amazon.in/ 
+02-Jul-2022 14:18:43:360 INFO  [TestNG-tests-1] Clicking on the Element: Hamburger Link 
+02-Jul-2022 14:18:48:552 INFO  [TestNG-tests-1] Clicking on the Element: TV, Appliances and Electronics Link 
+02-Jul-2022 14:18:55:179 INFO  [TestNG-tests-1] Clicking on the Element: Television Link 
+02-Jul-2022 14:19:02:174 INFO  [TestNG-tests-1] Clicking on the Element: Brands 
+02-Jul-2022 14:19:04:180 INFO  [TestNG-tests-1] Filter applied on the results with Brands: Samsung 
+02-Jul-2022 14:19:06:384 INFO  [TestNG-tests-1] Clicking on the Element: Sort Drop Down 
+02-Jul-2022 14:19:12:245 INFO  [TestNG-tests-1] Clicking on the Element: Price: High to Low 
+02-Jul-2022 14:19:14:246 INFO  [TestNG-tests-1] Results sorted by: Price: High to Low 
+02-Jul-2022 14:19:16:539 INFO  [TestNG-tests-1] Clicking on the Element: Product 
+02-Jul-2022 14:19:18:542 INFO  [TestNG-tests-1] Product place at the position '2' has been selected 
+02-Jul-2022 14:19:18:554 INFO  [TestNG-tests-1] Switching to the window number: 2 
+02-Jul-2022 14:19:22:514 INFO  [TestNG-tests-1] 'About this item' section is present on Webpage 
+02-Jul-2022 14:19:23:243 INFO  [TestNG-tests-1] Test Execution Completed 
+02-Jul-2022 14:19:23:244 INFO  [TestNG-tests-1] 
+####################### Test Case: T_00001: Test Amazon Page is passed!####################################
+ 
+02-Jul-2022 14:19:23:559 INFO  [TestNG-tests-1] //////////////////// Automation Script Execution Completed! ///////////////////////// 

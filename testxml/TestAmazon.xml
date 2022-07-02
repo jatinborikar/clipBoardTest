@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Clipboard Amazon Test" parallel="tests" thread-count="10">
+
+	<parameter name="appUrl" value="https://www.amazon.in/"/>
+	<parameter name="browserName" value="chrome"/>
+	<parameter name="headLessBrowser" value="false"/>
+	<parameter name="remoteRun" value="false"/>
+	<parameter name="hubAddress" value="http://192.168.29.157:8888/wd/hub"/>
+
+	<listeners>
+		<listener class-name="support.EventListener.FailureRetryListener"/>
+		<listener class-name="support.EventListener.TestListener"/>
+	</listeners>
+
+	<test name="Amazon">
+		<classes>
+			<class name="TestAmazon">
+				<methods>
+					<include name="T_00001"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>
